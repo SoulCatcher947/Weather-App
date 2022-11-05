@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.home {
+    background: url(./src/assets/sunny-day.jpg) center center/cover;
+}
+
+
+header {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.city {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 10px;
+    min-width: 300px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.temp {
+    font-size: 3rem;
+    display: flex;
+    min-width: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: -61px;
+}
+
+.weather-icon {
+    height: 100px;
+}
+
+.description {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    padding: 25px;
+    gap: 1rem;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    font-weight: bold;
+}
+
+.weather {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
